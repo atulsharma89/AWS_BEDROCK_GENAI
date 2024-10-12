@@ -1,0 +1,23 @@
+{
+    "modelId": "meta.llama2-70b-chat-v1",
+    "contentType": "application/json",
+    "accept": "application/json",
+    "body": "{\"prompt\":\"this is where you place your input text\",\"max_gen_len\":512,\"temperature\":0.5,\"top_p\":0.9}"
+}
+
+
+{
+    "modelId": "ai21.j2-mid-v1",
+    "contentType": "application/json",
+    "accept": "application/json",
+    "body": "{\"prompt\":\"this is where you place your input text\",\"maxTokens\":200,\"temperature\":0.8,\"topP\":0.9,\"stopSequences\":[],\"countPenalty\":{\"scale\":0},\"presencePenalty\":{\"scale\":0},\"frequencyPenalty\":{\"scale\":0}}"
+  }
+  
+
+{
+    "modelId": "anthropic.claude-v2",
+    "contentType": "application/json",
+    "accept": "*/*",
+    "body": "{\"prompt\":\"\\n\\nHuman: Hello world\\n\\nAssistant:\",\"max_tokens_to_sample\":300,\"temperature\":0.5,\"top_k\":250,\"top_p\":1,\"stop_sequences\":[\"\\n\\nHuman:\"],\"anthropic_version\":\"bedrock-2023-05-31\"}"
+  }
+
