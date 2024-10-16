@@ -4,6 +4,8 @@ import sys
 import boto3
 import streamlit as st
 
+#https://dev.to/aws-builders/rag-application-using-aws-bedrock-and-langchain-140b
+
 ## We will be suing Titan Embeddings Model To generate Embedding
 
 from langchain_community.embeddings import BedrockEmbeddings
